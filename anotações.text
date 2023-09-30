@@ -1,0 +1,28 @@
+O método split() em JavaScript é uma função de string que divide uma string em um array de substrings com base em um delimitador especificado. 
+O delimitador é uma sequência de caracteres que você fornece como argumento para a função. 
+Cada vez que o delimitador é encontrado na string original, a string é dividida em partes separadas no array resultante.
+
+ex1:
+
+const texto = 'Olá, Mundo! Bem-vindo ao JavaScript.';
+const palavras = texto.split(' ');
+
+console.log(palavras); // Saída: ['Olá,', 'Mundo!', 'Bem-vindo', 'ao', 'JavaScript.']
+
+ex2:
+
+const data = '2023-08-09';
+const partesData = data.split('-');
+
+console.log(partesData); // Saída: ['2023', '08', '09']
+
+
+Quando utiliza o input type='date', os índices são considerados da seguinte forma:
+
+ex:
+
+22/04/1991, onde:
+
+22 é o índice 2
+04 é o índice 1
+1991 é o índice 0

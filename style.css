@@ -1,0 +1,47 @@
+header{
+    text-align: center;
+}
+
+body{
+    background-color: #00ffd5;
+    border-style: double;
+    border-color: #F59A73;
+}
+
+section#ano{
+    background-color: #F59A73;
+    color: #ffffff;
+    width: 420px;
+    padding: 5px;
+    border-radius: 12px;
+    margin: auto;
+}
+
+section#resultado{
+    background-color: #F59A73;
+    color: #ffffff;
+    width: 420px;
+    height: auto;
+    padding: 5px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+footer{
+    text-align: center;
+    margin-top: 480px;
+}
+
+button{
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    border-radius: 5px;
+}
+
+
+
